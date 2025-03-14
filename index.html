@@ -1,0 +1,559 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Naitik Gupta - Ethical Hacker</title>
+		<!-- Minimized number of external CSS links and combined Font Awesome imports --> 
+		<link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<head>
+			<script>
+				document.addEventListener("keydown", function (event) {
+					// CTRL+U, CTRL+S, CTRL+Shift+I, CTRL+Shift+J, CTRL+H, F12 ko block karega
+					if (
+						(event.ctrlKey && (event.key === "u" || event.key === "s" || event.key === "i" || event.key === "j" || event.key === "h")) || 
+						event.key === "F12"
+					) {
+						event.preventDefault();
+						alert("View source is disabled!");
+					}
+				});
+		
+				// Right-click ko disable karega
+				document.addEventListener("contextmenu", function (event) {
+					event.preventDefault();
+					alert("Right-click is disabled!");
+				});
+		
+				// Developer tools detect karne ka attempt
+				setInterval(function() {
+					if (window.outerHeight - window.innerHeight > 100 || window.outerWidth - window.innerWidth > 100) {
+						document.body.innerHTML = "<h1>Developer tools are not allowed! Refresh To Get Back on My website</h1>";
+					}
+				}, 1000);
+			</script>
+		</head>
+		
+		<noscript>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+			<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OL Circle Cards</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");
+
+		</noscript>
+		<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		</noscript>
+		<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+		</noscript>
+		<link rel="preload" href="/wp-content/themes/astra/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript>
+			<link rel="stylesheet" href="/wp-content/themes/astra/style.css">
+		</noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<!-- Inline critical CSS (example, should be customized based on your site's actual critical CSS) --> 
+		<style> body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; } /* Add other critical styles here */ </style>
+		<link rel="stylesheet" href="reco.css">
+		<link rel="stylesheet" href="Btn.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<!-- Ensure text remains visible during webfont load --> 
+		<style> @font-face { font-family: 'Poppins'; font-display: swap; } </style>
+	</head>
+	<body>
+		<!-- Your content here --> <!-- Defer loading of non-critical scripts --> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" defer></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script> <!-- Inline or defer custom scripts --> <script defer> document.addEventListener('DOMContentLoaded', function () { AOS.init(); // Your other custom JavaScript here }); </script> </style> <!-- Navigation --> 
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#"><b>Naitik Gupta</b></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#journey">Experince</a></li>
+						<li class="nav-item"><a class="nav-link" href="#moviess">HOFs</a></li>					
+						<li class="nav-item"><a class="nav-link" href="#awards">Recom</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact">feedback</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<style> body { background-color: #000; color: #fff; font-family: 'Poppins', sans-serif; overflow-x: hidden; margin: 0; padding: 0; } .navbar { background-color: rgba(0, 0, 0, 0.8); transition: background-color 0.3s; } .navbar.scrolled { background-color: #111; } /* Responsive Design */ @media (max-width: 768px) { .navbar-collapse { background: rgba(0, 0, 0, 0.9); } } </style>
+		<script> AOS.init(); $(window).on('scroll', function() { if ($(this).scrollTop() > 50) { $('.navbar').addClass('scrolled'); } else { $('.navbar').removeClass('scrolled'); } }); $('.navbar-toggler').on('click', function() { $('#navbarResponsive').collapse('toggle'); }); </script> <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Hero --> 
+		<section class="hero-section-main">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<div class="hero-section">
+							<div class="hero-content">
+								<h1 class="hero-title">Welcome to the world of <br> Naitik Gupta</h1>
+								<p class="hero-subtitle">An Aspiring Cyber Security Professional & Ethical Hacker</p>
+								<a href="mailto:gnaitikg@gmail.com" class="btn hero-btn"><i class="fa fa-play"></i> Connect Now</a> 
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="image-container"> <img src="Naitik.png"" alt="Background Image"> </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<style> .hero-section-main { background: url('') no-repeat center center; background-size: cover; } .image-container { text-align: center; margin-top: 50px; /* Adjust as needed */ } .image-container img { max-width: 100%; height: auto; padding: 30px; } .hero-content { text-align: left; flex: 1; } .hero-title { font-size: 3.5rem; font-weight: 700; margin-bottom: 1rem; background: linear-gradient(177deg, #ffffff, #808080); -webkit-background-clip: text; -webkit-text-fill-color: transparent; } .hero-subtitle { font-size: 1.5rem; margin-bottom: 2rem; font-weight: 300; } .hero-btn { padding: 0.75rem 2rem; font-size: 1.2rem; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); color: #fff; border-radius: 15px; text-transform: uppercase; transition: background 0.3s ease, box-shadow 0.3s ease; backdrop-filter: blur(10px); } .hero-btn:hover { background: rgba(255, 255, 255, 0.2); box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); } .hero-btn i { margin-right: 10px; } @media (max-width: 768px) { .hero-section { flex-direction: column; text-align: center; padding: 1rem 0; } .hero-content { text-align: center; padding: 0 1rem; } .image-container img { padding: 0px; } .hero-title { font-size: 2.5rem; margin-top: 120px; } .hero-subtitle { font-size: 1rem; } .hero-btn { font-size: 1rem; } .image-container { margin-top: 20px; /* Adjust as needed */ margin: 1em -15px; } } </style>
+		
+		<!-- About section --> 
+		<section id="about" class="about-section">
+			<div class="container">
+				<div class="about-container">
+					<div class="info-section">
+						<h5>Naitik Gupta</h5>
+						<p><b><i>Ethical Hacker</b></i> <b>||</b> <span class="highlight"><i>Founder of @TeenXcel</i></span></p>
+						<p>Hello! <b>I'm Naitik </b>, a passionate  <b>Cybersecurity Researcher</b> and <b>Ethical Hacker</b> committed to securing the digital world. I’ve been recognized by top organizations for my expertise in <b> Web penetration testing</b> and <b>bug hunting.</b></p>
+						<p>Beyond security, I enjoy <b>mentoring aspiring Ethical Hackers and sharing knowledge</b>. I believe in persistence, innovation, and continuous learning.<br><br>
+
+Thank you for visiting my portfolio! I hope to inspire and contribute to a safer digital future. </p>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<style> .about-section { padding: 50px 0; position: relative; text-align: center; } .about-container { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; max-width: 1200px; margin: 0 auto; padding: 40px; background: linear-gradient(145deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%); border-radius: 30px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 2px outset rgba(255, 255, 255, 0.3); box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; z-index: 2; } .profile-section { flex: 1; min-width: 300px; position: relative; padding: 20px; z-index: 2; } .profile-section img { width: 100%; border-radius: 10px !important; /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);*/ } .info-section { flex: 2; min-width: 300px; padding: 20px; text-align: left; z-index: 2; } .info-section h5 { font-weight: bold; font-size: 2.5rem; margin-bottom: 15px; } .info-section p { font-size: 1.2rem; color: #ddd; } .info-section .highlight { color: #ffdd57; font-weight: bold; } .signature { display: inline-block; margin-top: 20px; position: relative; z-index: 2; } .signature img { width: 230px; } .background-decorations { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; overflow: hidden; pointer-events: none; } .decoration { position: absolute; background: rgba(255, 255, 255, 0.1); border-radius: 50%; filter: blur(40px); animation: float 15s infinite; } .decoration:nth-child(1) { width: 300px; height: 300px; top: 10%; left: 5%; } .decoration:nth-child(2) { width: 200px; height: 200px; top: 50%; left: 80%; animation-duration: 20s; } .decoration:nth-child(3) { width: 250px; height: 250px; top: 70%; left: 40%; animation-duration: 25s; } @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(20px); } 100% { transform: translateY(0px); } } /* Mobile Styles */ @media (max-width: 767px) { .about-container { padding: 20px; flex-direction: column; } .info-section h5 { font-size: 2rem; } .info-section p { font-size: 1rem; } } </style>
+		<!-- Awards --> 
+		<!-- journey --> 
+		<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up"></h2>
+<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up" style="margin-top: -20px;">EXPERINCE</h2>
+		
+		<section id="journey" class="timeline-section">
+			<div class="timeline-container">
+				<div class="timeline-fade-start"></div>
+				<ul class="timeline">
+					<li class="timeline-item" data-aos="fade-left">
+                       <div class="timeline-item-content">
+                            <div class="highlight">
+                              <h5><span class="highlight" style="color: yellow;">FOUNDER</span></h5>
+                              <b>TeenXcel</b></i></p>
+                              <h6>JAN 2024 - PRESENT</h6>
+                            </div>
+                        </div>
+                    </li>
+
+					<li class="timeline-item" data-aos="fade-right">
+						<div class="timeline-item-content">
+							<h5><span class="highlight" style="color: rgb(0, 60, 255);">Cyber Security Instructor</span></h5>
+							<b>BOSTON INSTITUTE OF ANALYTICS</b></i></p>
+							<h6>SEP 2024 - PRESENT</h6>
+						</div>
+					</li>
+					<li class="timeline-item" data-aos="fade-left">
+						<div class="timeline-item-content">
+							<h5><span class="highlight" style="color: rgb(0, 60, 255);">Security Researcher</span></h5>
+							<b>Com Olho (Freelance)</b></i></p>
+							<h6>AUG 2024 - PRESENT</h6>
+						</div>
+					</li>
+					<li class="timeline-item" data-aos="fade-right">
+						<div class="timeline-item-content">
+							<h5><span class="highlight" style="color: rgb(0, 60, 255);">Ethical Hacker</span></h5>
+							<b>TechnoHacks EduTech</b></i></p>
+							<h6>JUNE 2024 - JULY 2024</h6>
+						</div>
+					</li>
+				</ul>
+				<div class="timeline-fade-end"></div>
+			</div>
+		</section>
+		<style> .timeline-section { padding: 10px 0; position: relative; } .timeline-container { max-width: 1200px; margin: 0 auto; position: relative; } .timeline { position: relative; padding: 20px 0; list-style: none; overflow: hidden; } .timeline::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffdd57 25%, #ff0057 75%, rgba(255, 255, 255, 0) 100%); animation: progress-line 4s; z-index: -1; } .timeline-item { position: relative; width: 50%; padding: 20px; box-sizing: border-box; } .timeline-item:nth-child(odd) { left: 0; } .timeline-item:nth-child(even) { left: 50%; } .timeline-item-content { background: rgba(255, 255, 255, 0.1); margin-left: 22px; padding: 20px; border-radius: 10px; position: relative; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); z-index: 1; background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #000); } .timeline-item::before { content: ''; position: absolute; top: 50%; transform: translateY(-50%); left: -34px; width: 20px; height: 20px; border-radius: 50%; background: linear-gradient(180deg, #ffdd57 0%, #ff0057 100%); animation: bullet 4s infinite alternate; z-index: 2; } .timeline-item:nth-child(even)::before { left: calc(100% + 14px); } .timeline-item h5 { margin-bottom: 10px; font-size: 1.5rem; font-weight: bold; } .timeline-item p { font-size: 1rem; color: #ddd; } @keyframes progress-line { 0% { height: 0; } 100% { height: 100%; } } @keyframes bullet { 0% { transform: scale(1); } 100% { transform: scale(1.2); } } @media (max-width: 767px) { .timeline::before { left: 8%; } .timeline-item-content { margin-left: 22px; padding: 20px; } .timeline-item { width: 100%; padding-left: 30px; padding-right: 30px; margin-bottom: 30px; } .timeline-item:nth-child(odd) { left: 0; } .timeline-item:nth-child(even) { left: 0; } .timeline-item::before { left: 23px; } .timeline-item:nth-child(even)::before { left: 23px; } } .timeline-fade-start, .timeline-fade-end { position: absolute; width: 100%; height: 50px; z-index: -2; } .timeline-fade-end { bottom: 0; } .timeline-fade-start { top: 0; } </style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> <script> AOS.init({ duration: 1000, easing: 'ease-in-out', once: true, }); </script> <!-- movies --> 
+		
+		<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up"></h2>
+<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up" style="margin-top: -20px;">ACKNOWLEDGED BY</h2>
+
+
+		<section id="moviess" class="cutie">
+			<div class="container">
+				<div class="bg-glass p-3 rounded shadow-lg">
+					<div class="trending text-center text-white">
+						
+						<div class="movie-cards d-flex flex-wrap">
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/NASA.png" alt="U.S DEPARTMENT OF HOMELAND SECURITY" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">NASA</span></p>
+								
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/U.S DEP.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">U.S DEPARTMENT OF HOMELAND SECURITY</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/N.I.C.G.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">NATIONAL INDIAN GAMING COMMISSION</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/F.H.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">FEDERAL HOUSING OF FINANCE AGENCY</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/DOE.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">U.S DEPARTMENT OF ENERGY</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/B.I.E.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">BUREAU OF INDIAN EDUCATION</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/9.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">U.S.A DEFENSE NUCLEAR FACILITIES SAFETY BOARD</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/10.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">DTDC</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/11.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">FIRSTCRY</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/12.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">ELAN ltd.</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/13.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">SENZER</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/14.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">AIRBNB</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/15.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">FLIPKART</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/16.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">D.S GROUP</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/17.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">BAZZI GAMMERS</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/18.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">TATA MOTORS</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/19.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">ORIENT </span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/20.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">ISRO</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/21.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">SECUDOC</span></p>
+							</div>
+							<div class="movie-card col-6 col-md-4 col-lg-2 mb-3">
+								<div class="DZY-image-container"> <img src="IMAGES/22.png" alt="Chhota Bheem and the Curse of Damyaan" class="img-fluid rounded mb-2"> </div>
+								<p><span class="stars">★</span><span class="text-center" class="text-align">TOAST</span></p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<style> .movie-card.col-6.col-md-4.col-lg-2.mb-4 { padding: 5px; margin-bottom: 0px !important; } .movie-cards { padding: 0px 0px; } .highlighted.row.mb-4 { margin-bottom: 0px !important; } .buuu { font-weight: lighter !important; text-align: left; } .DZY-image-container { position: relative; width: 100%; padding-top: 150%; /* This will create a 2:3 aspect ratio container */ overflow: hidden; border-radius: 22px; box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inset shadow */ } .DZY-image-container img { position: absolute; top: 0; left: 0; width: 100%; height: 100% !important; object-fit: cover; /* Ensure the image covers the container */ border-radius: 22px; } .stars { font-size: 18px !important; color: #FF9800 !important; margin-right: 5px; } .cutie { background: linear-gradient(135deg, #000 0%, #000 100%); color: #333; padding: 10px 0px 0px 0px; font-size: 16px; } .bg-glass { background: rgba(255, 255, 255, 0.2); border-radius: 30px !important; backdrop-filter: blur(10px); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); background: linear-gradient(145deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%); border: 2px outset rgba(255, 255, 255, 0.3); } .highlighted { display: flex; flex-wrap: wrap; margin-bottom: 0px !important; } .highlight-box.col-md-6.position-relative.mb-4.mb-md-0.image-with-border-shadow { margin-bottom: 0px !important; } .highlight-box { flex: 1 1 50%; /* Each container will take up 50% width */ position: relative; margin-bottom: 0px; padding: 5px; border-radius: 20px !important; overflow: hidden; } .image-with-border-shadow { position: relative; display: inline-block; } .image-with-border-shadow img { display: block; width: 100%; height: 100%; object-fit: cover; /* Ensures the image covers the entire container */ border-radius: 20px /* Outer shadow */ } .image-with-border-shadow::before { content: ''; position: absolute; top: 5px; left: 5px; right: 5px; bottom: 5px; border-radius: 20px !important; /* Same as the image's border-radius */ /*box-shadow: inset 0 0 20px 20px rgb(0 0 0 / 82%);*/ z-index: 1; /* Ensure it's above the image */ } .highlight-content { position: absolute; bottom: 20px; left: 20px; border-radius: 20px !important; text-shadow: 7px 5px 20px #000; font-family: 'Poppins', sans-serif; width: 75%; } .play-button { background: #000; border: 2px solid #ffffff; border-radius: 50%; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 12px; height: 40px; width: 40px; text-decoration: none; } .filters button { color: #FFFFFF; border-radius: 20px !important; } .filters button:hover { background: rgba(255, 255, 255, 0.1); border-radius: 8px !important; } .trending h3 { margin-bottom: 20px; font-size: 20px; margin-top: 25px; text-align: left; margin-left: 15px; } .movie-card { margin-left: 0px; margin-right: 0px; } .movie-card img { width: 100%; height: auto; border-radius: 22px; margin-bottom: 10px; border-radius: 20px !important; box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inset shadow */ } .movie-card p { font-size: 14px; margin-bottom: 5px; display: flex; font-weight: bold; text-align: left; } p.buuu { font-size: 12px; } .movie-card span { font-size: 12px; color: #FFf; display: flex; align-items: center; } @media (max-width: 768px) { .highlighted { flex-direction: column; } } </style>
+		
+		<!-- new testing -->
+		<!-- journey --> 
+		<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up"></h2>
+<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up" style="margin-top: -20px;">EDUCATION</h2>
+		
+		<section id="journey" class="timeline-section">
+			<div class="timeline-container">
+				<div class="timeline-fade-start"></div>
+				<ul class="timeline">
+					<li class="timeline-item" data-aos="fade-left">
+                       <div class="timeline-item-content">
+                            <div class="highlight">
+                              <h5><span class="highlight" style="color: yellow;">PCM + CS</span></h5>
+                              <b>Senior Secondary</b></i></p>
+                              <h6>MARCH 2025 - PRESENT</h6>
+                            </div>
+                        </div>
+                    </li>
+
+					<li class="timeline-item" data-aos="fade-right">
+						<div class="timeline-item-content">
+							<h5><span class="highlight" style="color: rgb(0, 60, 255);">ALL SUBJECTS</span></h5>
+							<b>High School</b></i></p>
+							<h6>MARCH 2023 - MARCH 2024</h6>
+						</div>
+					</li>
+					
+				</ul>
+				<div class="timeline-fade-end"></div>
+			</div>
+		</section>
+		<style> .timeline-section { padding: 10px 0; position: relative; } .timeline-container { max-width: 1200px; margin: 0 auto; position: relative; } .timeline { position: relative; padding: 20px 0; list-style: none; overflow: hidden; } .timeline::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffdd57 25%, #ff0057 75%, rgba(255, 255, 255, 0) 100%); animation: progress-line 4s; z-index: -1; } .timeline-item { position: relative; width: 50%; padding: 20px; box-sizing: border-box; } .timeline-item:nth-child(odd) { left: 0; } .timeline-item:nth-child(even) { left: 50%; } .timeline-item-content { background: rgba(255, 255, 255, 0.1); margin-left: 22px; padding: 20px; border-radius: 10px; position: relative; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); z-index: 1; background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #000); } .timeline-item::before { content: ''; position: absolute; top: 50%; transform: translateY(-50%); left: -34px; width: 20px; height: 20px; border-radius: 50%; background: linear-gradient(180deg, #ffdd57 0%, #ff0057 100%); animation: bullet 4s infinite alternate; z-index: 2; } .timeline-item:nth-child(even)::before { left: calc(100% + 14px); } .timeline-item h5 { margin-bottom: 10px; font-size: 1.5rem; font-weight: bold; } .timeline-item p { font-size: 1rem; color: #ddd; } @keyframes progress-line { 0% { height: 0; } 100% { height: 100%; } } @keyframes bullet { 0% { transform: scale(1); } 100% { transform: scale(1.2); } } @media (max-width: 767px) { .timeline::before { left: 8%; } .timeline-item-content { margin-left: 22px; padding: 20px; } .timeline-item { width: 100%; padding-left: 30px; padding-right: 30px; margin-bottom: 30px; } .timeline-item:nth-child(odd) { left: 0; } .timeline-item:nth-child(even) { left: 0; } .timeline-item::before { left: 23px; } .timeline-item:nth-child(even)::before { left: 23px; } } .timeline-fade-start, .timeline-fade-end { position: absolute; width: 100%; height: 50px; z-index: -2; } .timeline-fade-end { bottom: 0; } .timeline-fade-start { top: 0; } </style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> <script> AOS.init({ duration: 1000, easing: 'ease-in-out', once: true, }); </script> <!-- movies --> 
+		
+		<!-- new testing END-->
+		<!-- Trailer and Clips Section --> 
+		<section id="trailers" class="trailers-section section">
+			
+		</section>
+		<style> .section { padding: 40px 0px 10px 0px; } .carousel-slide { padding-top: 10px; } .section-title { margin-bottom: 40px; font-size: 2.5rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #fff; position: relative; } .section-title::after { content: ''; width: 160px; height: 4px; background: linear-gradient(48deg, rgba(255, 255, 255, 0) 0%, #44acef 25%, #472be1 75%, rgba(255, 255, 255, 0) 100%); display: block; margin: 10px auto; } .video-container { position: relative; border-radius: 20px; overflow: hidden; } .glassmorphism { backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.18); } .carousel-control-prev-icon, .carousel-control-next-icon { background-color: #fff; border-radius: 50%; } .carousel-control-prev, .carousel-control-next { width: 50px; height: 50px; margin: auto 0; } .carousel-indicators li { background-color: #fff; } @media (max-width: 768px) { .carousel-item { display: flex; flex-direction: column; align-items: center; } .carousel-item .col-md-6 { margin-bottom: 20px; } .carousel-control-prev, .carousel-control-next { display: none; } } </style>
+		<style> .ytp-large-play-button svg { visibility: hidden !important; } </style>
+		<!-- News --> 
+		
+		<!--Awards-->
+		<!-- Awards --> 
+		<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up"></h2>
+<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up" style="margin-top: -20px;">Recommendations</h2>
+<section id="awards" class="awards-section">
+   <div class="background-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4" data-aos="fade-up">
+            <div class="award-card">
+               <img src="IMAGES/RECO/AKASH.png" alt="RECO 1" class="award-icon" style="width: 150px; height: 250px; border-radius: 0%; object-fit: cover; display: block; margin: 0 auto;">
+               <div class="award-content" style="text-align: center; margin-top: -80px;">
+                  <h5 style="margin: 5px;">Akash Yadav</h5>
+                  <span class="award-meta" style="display: block; margin-top: 5px;"><b>Senior Academic Counsellor</b><br>@BIA</span>
+                  <p>
+                     <b>
+                     I am pleased to highly recommend Naitik, for a new opportunity. Over the past 6 months, he has demonstrated exceptional dedication, professionalism, and a strong willingness to learn and grow.
+                     <span class="more-content" id="content1" style="display: none;">
+                     he has demonstrated exceptional dedication, professionalism, and a strong willingness to learn and grow.
+                     His work has been nothing short of excellent, consistently exceeding expectations and delivering high-quality results. 
+                     What truly sets him apart is his exponential growth—he is constantly improving, taking on new challenges with confidence, and refining his skills every day. 
+                     His proactive attitude, problem-solving abilities, and commitment to excellence make him a valuable asset to any team.
+                     I have no doubt that Naitik will continue to excel and achieve even greater success in the future. I strongly endorse his capabilities and look forward to seeing his continued growth.
+                     </span>
+                     <br><br><span class="show-more" id="showMore1" style="color: rgb(157, 255, 0); cursor: pointer; text-decoration: solid;" onclick="toggleContent('content1', 'showMore1')"><button class="button">Read Full</button></span>
+                     <br><br>
+                     <a href="https://www.linkedin.com/in/akash-yadav-8865a9278/" class="social-icon" style="margin-left: 10px; color: #fdfdfd; text-decoration: none; font-size: 20px;">
+                     <i class="fab fa-linkedin-in"></i>
+                     </a>
+                     <a href="https://www.instagram.com/at_ryanmax/" class="social-icon" style="margin-left: 10px; color: #ffffff; text-decoration: none; font-size: 20px;">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                     </b>
+                     <script>
+    function toggleContent(contentId, showMoreId) {
+        const moreContent = document.getElementById(contentId);
+        const showMoreText = document.getElementById(showMoreId);
+
+        if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+            moreContent.style.display = 'inline'; // Show the extra content
+            showMoreText.textContent = 'Show Less'; // Change the text to "Show Less"
+        } else {
+            moreContent.style.display = 'none'; // Hide the extra content
+            showMoreText.textContent = 'Read Full'; // Change the text back to "Read Full"
+        }
+    }
+</script>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4" data-aos="fade-up">
+            <div class="award-card">
+               <img src="IMAGES/RECO/PRASHANT.png" alt="RECO 2" class="award-icon" style="width: 150px; height: 250px; border-radius: 0%; object-fit: cover; display: block; margin: 0 auto;">
+               <div class="award-content" style="text-align: center; margin-top: -80px;">
+                  <h5 style="margin: 5px;">Prashant Jindal</h5>
+                  <span class="award-meta" style="display: block; margin-top: 5px;">Branch Head<br>@BIA</span>
+                  <p>
+                    <b>
+    I highly recommend Naitik for his exceptional skills and potential. Despite his young age, he has proven to be a quick learner with excellent interpersonal skills, making him a valuable asset to our team.
+    <span class="more-content" id="content2" style="display: none;">
+        His ability to tackle challenges head-on and grasp complex concepts rapidly led to his appointment as the youngest trainer at BIA. Naitik’s dedication and natural talent for connecting with others make him a promising leader and an outstanding mentor for his peers.  
+    </span>
+    <br><br><span class="show-more" id="showMore2" style="color: rgb(157, 255, 0); cursor: pointer; text-decoration: solid;" onclick="toggleContent('content2', 'showMore2')"><button class="button">Read Full</button></span>
+    <br><br>
+    <a href="https://www.linkedin.com/in/prashant-jindal-/" class="social-icon" style="margin-left: 10px; color: #fdfdfd; text-decoration: none; font-size: 20px;">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.instagram.com/hbk_3.16/" class="social-icon" style="margin-left: 10px; color: #ffffff; text-decoration: none; font-size: 20px;">
+        <i class="fab fa-instagram"></i>
+    </a>
+</b>
+
+<script>
+    function toggleContent(contentId, showMoreId) {
+        const moreContent = document.getElementById(contentId);
+        const showMoreText = document.getElementById(showMoreId);
+
+        if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+            moreContent.style.display = 'inline'; // Show the extra content
+            showMoreText.textContent = 'Show Less'; // Change the text to "Show Less"
+        } else {
+            moreContent.style.display = 'none'; // Hide the extra content
+            showMoreText.textContent = 'Read Full'; // Change the text back to "Read Full"
+        }
+    }
+</script>
+
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4" data-aos="fade-up">
+            <div class="award-card">
+               <img src="IMAGES/RECO/VAISHNAVI.png" alt="RECO 3" class="award-icon" style="width: 150px; height: 250px; border-radius: 0%; object-fit: cover; display: block; margin: 0 auto;">
+               <div class="award-content" style="text-align: center; margin-top: -80px;">
+                  <h5 style="margin: 5px;">Vaishnavi Singh</h5>
+                  <span class="award-meta" style="display: block; margin-top: 5px;">HR<br>@BIA</span>
+                  <p>
+					<b>
+    I am pleased to write this letter of recommendation for Naitik, who has transitioned from a student to a teaching role in Cyber Security within our organization. I had the privilege of working closely with him during 
+    <span class="more-content" id="content3" style="display: none;">
+        his time as a student, and I have witnessed his growth, dedication, and passion for the field of Cyber Security. 
+        His passion for teaching was evident early on, as he would often volunteer to assist classmates, explaining difficult topics with patience and clarity. Their ability to communicate technical information to individuals with varying levels of understanding set him apart.
+        Since becoming a teacher of Cyber Security for the organization, Naitik has proven to be an invaluable asset to our team. He has created and delivered engaging and comprehensive learning materials, ensuring that all learners, regardless of their experience level, are equipped with the knowledge and skills they need to succeed. Naitik is adept at adapting his teaching style to accommodate diverse learning needs, and he has made a positive impact on every student he taught.
+        In addition to his teaching capabilities, Naitik continues to demonstrate commitment to his own professional growth. He actively engages in cybersecurity conferences, webinars, and training, ensuring he remains well-versed in the evolving landscape of cyber threats. This dedication to ongoing learning allows him to pass on the most up-to-date and relevant information to his students.
+        I am confident that Naitik will continue to thrive in his role as a Cyber Security educator. I wholeheartedly recommend Naitik for any future opportunities in Cyber Security education or leadership.
+    </span>
+    <br><br><span class="show-more" id="showMore3" style="color: rgb(157, 255, 0); cursor: pointer; text-decoration: solid;" onclick="toggleContent('content3', 'showMore3')"><button class="button">Read Full</button></span>
+    <br><br>
+    <a href="https://www.linkedin.com/in/vaishnavi-singh-a5b753215/" class="social-icon" style="margin-left: 10px; color: #fdfdfd; text-decoration: none; font-size: 20px;">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.instagram.com/singhvaishnavi422/" class="social-icon" style="margin-left: 10px; color: #ffffff; text-decoration: none; font-size: 20px;">
+        <i class="fab fa-instagram"></i>
+    </a>
+</b>
+
+<script>
+    function toggleContent(contentId, showMoreId) {
+        const moreContent = document.getElementById(contentId);
+        const showMoreText = document.getElementById(showMoreId);
+
+        if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+            moreContent.style.display = 'inline'; // Show the extra content
+            showMoreText.textContent = 'Show Less'; // Change the text to "Show Less"
+        } else {
+            moreContent.style.display = 'none'; // Hide the extra content
+            showMoreText.textContent = 'Read Full'; // Change the text back to "Read Full"
+        }
+    }
+</script>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <style>.awards-section { padding: 10px 0; position: relative; z-index: 1; } .award-card { background: rgb(255,255,255); background: linear-gradient(145deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.1) 100%); border-radius: 30px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 2px outset rgba(255, 255, 255, 0.3); box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); overflow: hidden; padding: 30px; text-align: center; transition: transform 0.3s, box-shadow 0.3s; margin-bottom: 30px; position: relative; z-index: 2; height: 90%; } .award-card::after { content:""; position: absolute; width: 400px; height: 250px; border-radius: 30px; opacity: 0.5; background-image: url(data:image/png;base64,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); } .award-card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); } .award-icon { width: 120px; height: auto; margin-bottom: 20px; } .award-content { padding: 20px; } .award-meta { font-size: 0.9rem; color: #bbb; margin-bottom: 15px; } .award-card h5 { font-weight: bold; font-size: 1.5rem; margin-bottom: 15px; } .award-card p { font-size: 1rem; color: #ddd; margin-bottom: 15px; } .background-particles { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; } .particle { position: absolute; background: radial-gradient(circle at 65% 15%, white 1px, #9c9c9c 3%, black 60%, #878b8b 100%); backdrop-filter: blur(20px); border-radius: 50%; animation: move 20s infinite alternate; } .particle:nth-child(1) { width: 200px; height: 200px; top: 20%; left: 5%; animation-duration: 30s; filter: blur(1.5px); } .particle:nth-child(2) { width: 150px; height: 150px; top: 50%; left: 80%; animation-duration: 25s; filter: blur(4px); } .particle:nth-child(3) { width: 100px; height: 100px; top: 80%; z-index: 3; left: 40%; box-shadow: -7px 18px 31px -13px black; animation-duration: 20s; } @keyframes move { to { transform: translate3d(20px, -30px, 0) rotate(360deg); } } /* Additional Styling for Advanced Look */ .award-card::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)); transform: rotate(45deg); z-index: 1; opacity: 0.5; pointer-events: none; } .award-card:hover::before { opacity: 0.7; } .award-card::after { } .award-card:hover::after { opacity: 0.7; } @media (max-width: 767px) { .award-card h5 { font-size: 1.2rem; } .award-card p { font-size: 0.9rem; } .award-icon { width: 80px; } .particle:nth-child(1) { top: 29%; left: -23%; width: 150px; height: 150px; } .particle:nth-child(2) { top: 50%; left: 80%; } .particle:nth-child(3) { top: 92%; left: 11%; } </style>
+      
+
+        </div>
+
+        <!-- Aap yahan aur sections add kar sakte hain -->
+    </div>
+</div>
+				</div>
+			</div>
+		</section>
+		<style> .news-section { padding: 20px 0px 30px 0px; position: relative; z-index: 1; } h2.section-title.text-center.aos-init.aos-animate { margin: 0px 0px 30px 0px; } .news-card { background: linear-gradient(145deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%); border-radius: 30px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 2px outset rgba(255, 255, 255, 0.3); box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); overflow: hidden; padding: 30px; transition: transform 0.3s, box-shadow 0.3s; margin-bottom: 30px; position: relative; z-index: 2; display: flex; flex-direction: column; height: 100%; } .news-card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); } .news-thumbnail { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; } .news-content { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; } .news-meta { display: flex; align-items: center; margin-bottom: 15px; } .news-meta img { width: 60px; height: auto; margin-right: 10px; } .news-meta .date { font-size: 0.9rem; color: #bbb; margin-left: auto; } .news-card h5 { font-weight: bold; font-size: 1.25rem; margin-bottom: 15px; } .news-card p { color: #ddd; flex-grow: 1; } .news-card a { text-decoration: none; color: #f39c12; font-weight: bold; transition: color 0.3s; } .news-card a:hover { color: #fff; } .background-blobs { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; overflow: hidden; } .blob { position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(20px); animation: move 20s infinite alternate; } .blob:nth-child(1) { width: 300px; height: 300px; top: 10%; left: 15%; animation-duration: 25s; } .blob:nth-child(2) { width: 200px; height: 200px; top: 50%; left: 75%; animation-duration: 18s; } .blob:nth-child(3) { width: 250px; height: 250px; top: 70%; left: 40%; animation-duration: 30s; } @keyframes move { to { transform: translate3d(0, 0, 0) rotate(360deg); transform: translate3d(20px, -30px, 0) rotate(-360deg); } } /* Media query for mobile devices */ @media (max-width: 767px) { .news-section .row { margin-left: 0; margin-right: 0; } .news-section .col-md-4 { padding-left: 0; padding-right: 0; margin-bottom: 20px; /* Add margin between cards */ } .news-card { margin-bottom: 20px; /* Ensure margin is applied directly */ } .news-card h5 { font-size: 1.1rem; } .news-card p { font-size: 0.8rem; } .news-thumbnail { height: 150px; } .news-meta img { width: 50px; } } </style>
+		<!-- socials --> 
+		<section id="awards" class="awards-section">
+   <div class="background-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4" data-aos="fade-up">
+            <div class="award-card">
+               <img src="IMAGES/RECO/SHIVANI.png" alt="RECO 4" class="award-icon" style="width: 150px; height: 250px; border-radius: 0%; object-fit: cover; display: block; margin: 0 auto;">
+               <div class="award-content" style="text-align: center; margin-top: -80px;">
+                  <h5 style="margin: 5px;">Shivani Gupta</h5>
+                  <span class="award-meta" style="display: block; margin-top: 5px;"><b>Marketing Head</b><br>@BIA</span>
+                  <p>
+                     <b>
+						I had the pleasure of working with Naitik during our time at Boston institute of analytics , where I was a Marketing Head, and he was a Cybersecurity Trainer. Naitik consistently demonstrated
+                     <b>
+                        I highly recommend Naitik for his exceptional skills and dedication. 
+                     <span class="more-content" id="content4" style="display: none;">
+                        a sharp and creative mindset, offering valuable insights that greatly contributed to my work. His innovative ideas, strategic marketing approaches, and problem-solving skills made a significant impact. Whenever I faced a challenge, Naitik was always ready to assist with a positive attitude and a solutions-driven approach. I highly recommend him for his expertise, creativity, and willingness to collaborate.
+                     </span>
+                     <br><br><span class="show-more" id="showMore4" style="color: rgb(157, 255, 0); cursor: pointer; text-decoration: solid;" onclick="toggleContent('content4', 'showMore4')"><button class="button">Read Full</button></span>
+                     <br><br>
+                     <a href="https://www.linkedin.com/in/shivani-gupta-153481270/" class="social-icon" style="margin-left: 10px; color: #fdfdfd; text-decoration: none; font-size: 20px;">
+                      <i class="fab fa-linkedin-in"></i>
+                     </a>
+                     <a href="https://www.instagram.com/_shivanigupta029_/" class="social-icon" style="margin-left: 10px; color: #ffffff; text-decoration: none; font-size: 20px;">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+                     </b>
+				</p> 
+                   <script>
+					  function toggleContent(contentId, showMoreId) {
+                      const moreContent = document.getElementById(contentId);
+                      const showMoreText = document.getElementById(showMoreId);
+                      if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+                     moreContent.style.display = 'inline'; // Show the extra content
+                      showMoreText.textContent = 'Show Less'; // Change the text to "Show Less"
+                      } else {
+                            moreContent.style.display = 'none'; // Hide the extra content
+                            showMoreText.textContent = 'Read Full'; // Change the text back to "Read Full"
+                                 }
+                              }
+                     </script>
+            </div>
+        </div>
+    </div>
+</section>	
+		<!-- Instagram Embed Script --> <!-- Contact Section --> 
+		<section id="contact" class="contact-section section">
+    <div class="container">
+        <h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up"></h2>
+<h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up" style="margin-top: -20px;">FEEDBACK</h2>
+<p class="text-center">Please Share your feedback</p>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2" data-aos="fade-up" data-aos-delay="200">
+                <form action="https://formspree.io/f/xdkekozl" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+                <div class="social-icons text-center mt-4">
+                    <a href="https://www.instagram.com/___.naitikgupta.___/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gnaitikg/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+		<style> </style>
+		
+		<style> .contact-section .form-control, .contact-section .btn { border-radius: 25px; padding: 15px; margin-bottom: 20px; } .contact-section .social-icon { font-size: 24px; color: #fff; margin: 0 10px; transition: color 0.3s; } .contact-section .social-icon:hover { color: #007bff; } button.btn.btn-primary.btn-block { background: linear-gradient(145deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%); border-radius: 30px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 2px outset rgba(255, 255, 255, 0.3); box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); } .DZY-signature { width: 280px; height: 100px; padding: 0px 0px 0px 40px; } </style>
+		<!-- Footer --> 
+		<footer>
+			<div class="container">
+				<p>&copy; 2025 Naitik Gupta.</p>
+			</div>
+		</footer>
+		<script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <script> const players = Plyr.setup('.plyr__video-embed', { controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'] }); AOS.init(); </script> <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+		<style> footer { background-color: #111; padding: 20px 0; text-align: center; } [data-aos="fade-up"] { opacity: 0; transition-property: opacity, transform; transform: translate3d(0, 100px, 0); } [data-aos="fade-up"].aos-animate { opacity: 1; transform: translate3d(0, 0, 0); } /* Responsive Design */ @media (max-width: 768px) { .about-section .col-lg-6, .contact-section .col-lg-8 { text-align: center; } .about-section img { margin: 0 auto 20px; } .navbar-collapse { background: rgba(0, 0, 0, 0.9); } } </style>
+		<style> .awards-section .award-item, .movies-section .movie-item, .events-section .event-item, .recent-section .recent-item { margin-bottom: 30px; padding: 20px; display: flex ; flex-direction: column; align-items: center; border-radius: 10px; transition: transform 0.3s; } .awards-section .award-item:hover, .movies-section .movie-item:hover, .events-section .event-item:hover, .recent-section .recent-item:hover { transform: translateY(-10px); } </style>
+	</body>
+</html>
